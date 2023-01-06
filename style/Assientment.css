@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    font-family: 'open Sans', sans-serif;
+}
+
+header {
+    background-image: url('../images/banner/banner1.png');
+    background-position: bottom right, left;
+    background-size: 100% 100%;
+    width: 1600px;
+    height: 808px;
+    padding: 5px;
+
+
+}
+
+/* Navigation Bar  Start*/
+nav {
+    font-size: 20px;
+    margin: 50px 200px;
+}
+
+.Navi-Title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    width: 525px;
+    height: 2opx;
+}
+
+.Navi-Sub-Title {
+    color: rgb(39, 36, 36);
+    font-weight: 365;
+    font-size: 16px;
+    padding: 30px;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    padding: 14px 40px;
+}
+
+/* Navigation Bar End */
+
+.About {
+    display: flex;
+    width: 600;
+    height: 550px;
+    padding: 50px 250px;
+
+
+}
+
+.About-Title {
+    padding: 200px 15px;
+
+}
+
+main {
+    background-size: 100% 100%;
+}
+
+ /* Section Style */
+
+.section-Title {
+    color: #0e0c0c;
+    font-weight: bold;
+    font-size: 100px;
+
+}
+
+.Section-Sub-Title {
+    color: #444347;
+    font-size: 16PX;
+    font-weight: 50PX;
+    padding: 5PX ;
+}
+
+.List {
+    padding: 5px ;
+    list-style-type: circle;
+}
+
+.Items {
+    padding: 3px;
+}
+/* MY-Plans*/
+.My-Plans{
+    text-align: center;
+    margin-top: 130px 200px;
+     
+}
+.My-plans-Title{
+    font-size: 22px; 
+}
