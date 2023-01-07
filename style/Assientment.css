@@ -50,7 +50,32 @@ nav {
 
 /* Navigation Bar End */
 
-/* Section Style */
+/*  Added Section Style */
+
+.Web-Container{
+    background-color:#252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+}
+.Web-Container img{
+       height: 250px;
+}
+
+.Web-Container h1{
+    margin: 5px;
+    color:greenyellow;
+
+}     
+.Web-Container p{
+    color: #c0bdbd;
+    margin-right: 15px;
+}     
+/* Added Section Style End */
+
+/* Frist Section Style */
 .About {
     width: 100%;
     padding: 78px 0px;
@@ -100,8 +125,9 @@ nav {
 .Items {
     margin: 0 0 10px 10px;
 }
+/* Frist Section Style  End */
 
-/* My Plans Start */
+/* Second Section Style */
 
 .Plans-Contaion {
     display: flex;
@@ -136,7 +162,7 @@ nav {
 .Plans-desc {
     color: #757575;
 }
-
+/* Second Section Style */
 /* My Plans  End */
 
 main {
@@ -219,11 +245,11 @@ main {
 }
 
 .Email {
-    border: #faf6f6;
+    border:1px solid #faf6f6;
     border-radius: 10px;
     padding: 0 10px;
     font-size: 18px;
-    color: #0f0f0f;
+    color: #f8f4f4;
     background-color: rgb(17, 15, 15);
     height: 30px;
 }
